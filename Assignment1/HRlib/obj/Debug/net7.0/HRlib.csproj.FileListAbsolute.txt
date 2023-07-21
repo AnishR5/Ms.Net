@@ -1,0 +1,12 @@
+E:\Iacsd\MsnetWs\Assignment1\HRlib\bin\Debug\net7.0\HRlib.deps.json
+E:\Iacsd\MsnetWs\Assignment1\HRlib\bin\Debug\net7.0\HRlib.dll
+E:\Iacsd\MsnetWs\Assignment1\HRlib\bin\Debug\net7.0\HRlib.pdb
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.csproj.AssemblyReference.cache
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.AssemblyInfoInputs.cache
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.AssemblyInfo.cs
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.csproj.CoreCompileInputs.cache
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.dll
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\refint\HRlib.dll
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\HRlib.pdb
+E:\Iacsd\MsnetWs\Assignment1\HRlib\obj\Debug\net7.0\ref\HRlib.dll

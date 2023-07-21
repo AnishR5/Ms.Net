@@ -1,0 +1,12 @@
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.csproj.AssemblyReference.cache
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.AssemblyInfoInputs.cache
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.AssemblyInfo.cs
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.csproj.CoreCompileInputs.cache
+E:\Iacsd\MsnetWs\Complex\bin\Debug\net7.0\Complex.deps.json
+E:\Iacsd\MsnetWs\Complex\bin\Debug\net7.0\Complex.dll
+E:\Iacsd\MsnetWs\Complex\bin\Debug\net7.0\Complex.pdb
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.dll
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\refint\Complex.dll
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\Complex.pdb
+E:\Iacsd\MsnetWs\Complex\obj\Debug\net7.0\ref\Complex.dll

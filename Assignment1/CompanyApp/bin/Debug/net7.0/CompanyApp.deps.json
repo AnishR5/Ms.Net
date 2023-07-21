@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CompanyApp/1.0.0": {
+        "dependencies": {
+          "HRlib": "1.0.0",
+          "Taxation": "1.0.0"
+        },
+        "runtime": {
+          "CompanyApp.dll": {}
+        }
+      },
+      "HRlib/1.0.0": {
+        "runtime": {
+          "HRlib.dll": {}
+        }
+      },
+      "Taxation/1.0.0": {
+        "runtime": {
+          "Taxation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompanyApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HRlib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Taxation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

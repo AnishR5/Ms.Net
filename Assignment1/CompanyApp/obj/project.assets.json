@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "HRlib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HRlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRlib.dll": {}
+        }
+      },
+      "Taxation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Taxation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Taxation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HRlib/1.0.0": {
+      "type": "project",
+      "path": "../HRlib/HRlib.csproj",
+      "msbuildProject": "../HRlib/HRlib.csproj"
+    },
+    "Taxation/1.0.0": {
+      "type": "project",
+      "path": "../Taxation/Taxation.csproj",
+      "msbuildProject": "../Taxation/Taxation.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "HRlib >= 1.0.0",
+      "Taxation >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\anish.LAPTOP-T4EV1AJ6\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Iacsd\\MsnetWs\\Assignment1\\CompanyApp\\CompanyApp.csproj",
+      "projectName": "CompanyApp",
+      "projectPath": "E:\\Iacsd\\MsnetWs\\Assignment1\\CompanyApp\\CompanyApp.csproj",
+      "packagesPath": "C:\\Users\\anish.LAPTOP-T4EV1AJ6\\.nuget\\packages\\",
+      "outputPath": "E:\\Iacsd\\MsnetWs\\Assignment1\\CompanyApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\anish.LAPTOP-T4EV1AJ6\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "E:\\Iacsd\\MsnetWs\\Assignment1\\HRlib\\HRlib.csproj": {
+              "projectPath": "E:\\Iacsd\\MsnetWs\\Assignment1\\HRlib\\HRlib.csproj"
+            },
+            "E:\\Iacsd\\MsnetWs\\Assignment1\\Taxation\\Taxation.csproj": {
+              "projectPath": "E:\\Iacsd\\MsnetWs\\Assignment1\\Taxation\\Taxation.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.csproj.AssemblyReference.cache
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.AssemblyInfoInputs.cache
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.AssemblyInfo.cs
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.csproj.CoreCompileInputs.cache
+E:\Iacsd\MsnetWs\ImplementationLib\bin\Debug\net7.0\ImplementationLib.deps.json
+E:\Iacsd\MsnetWs\ImplementationLib\bin\Debug\net7.0\ImplementationLib.dll
+E:\Iacsd\MsnetWs\ImplementationLib\bin\Debug\net7.0\ImplementationLib.pdb
+E:\Iacsd\MsnetWs\ImplementationLib\bin\Debug\net7.0\SpecificationLib.dll
+E:\Iacsd\MsnetWs\ImplementationLib\bin\Debug\net7.0\SpecificationLib.pdb
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.csproj.CopyComplete
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.dll
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\refint\ImplementationLib.dll
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ImplementationLib.pdb
+E:\Iacsd\MsnetWs\ImplementationLib\obj\Debug\net7.0\ref\ImplementationLib.dll

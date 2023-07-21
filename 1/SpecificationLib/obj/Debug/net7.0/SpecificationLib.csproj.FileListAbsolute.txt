@@ -1,0 +1,12 @@
+E:\Iacsd\MsnetWs\SpecificationLib\bin\Debug\net7.0\SpecificationLib.deps.json
+E:\Iacsd\MsnetWs\SpecificationLib\bin\Debug\net7.0\SpecificationLib.dll
+E:\Iacsd\MsnetWs\SpecificationLib\bin\Debug\net7.0\SpecificationLib.pdb
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.csproj.AssemblyReference.cache
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.AssemblyInfoInputs.cache
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.AssemblyInfo.cs
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.csproj.CoreCompileInputs.cache
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.dll
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\refint\SpecificationLib.dll
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\SpecificationLib.pdb
+E:\Iacsd\MsnetWs\SpecificationLib\obj\Debug\net7.0\ref\SpecificationLib.dll

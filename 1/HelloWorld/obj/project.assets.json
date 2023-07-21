@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Complex/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Complex.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Complex.dll": {}
+        }
+      },
+      "Drawing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Drawing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Drawing.dll": {}
+        }
+      },
+      "ImplementationLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "SpecificationLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ImplementationLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImplementationLib.dll": {}
+        }
+      },
+      "SpecificationLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SpecificationLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SpecificationLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Complex/1.0.0": {
+      "type": "project",
+      "path": "../Complex/Complex.csproj",
+      "msbuildProject": "../Complex/Complex.csproj"
+    },
+    "Drawing/1.0.0": {
+      "type": "project",
+      "path": "../Drawing/Drawing.csproj",
+      "msbuildProject": "../Drawing/Drawing.csproj"
+    },
+    "ImplementationLib/1.0.0": {
+      "type": "project",
+      "path": "../ImplementationLib/ImplementationLib.csproj",
+      "msbuildProject": "../ImplementationLib/ImplementationLib.csproj"
+    },
+    "SpecificationLib/1.0.0": {
+      "type": "project",
+      "path": "../SpecificationLib/SpecificationLib.csproj",
+      "msbuildProject": "../SpecificationLib/SpecificationLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Complex >= 1.0.0",
+      "Drawing >= 1.0.0",
+      "ImplementationLib >= 1.0.0",
+      "SpecificationLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\anish.LAPTOP-T4EV1AJ6\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Iacsd\\MsnetWs\\HelloWorld\\HelloWorld.csproj",
+      "projectName": "HelloWorld",
+      "projectPath": "E:\\Iacsd\\MsnetWs\\HelloWorld\\HelloWorld.csproj",
+      "packagesPath": "C:\\Users\\anish.LAPTOP-T4EV1AJ6\\.nuget\\packages\\",
+      "outputPath": "E:\\Iacsd\\MsnetWs\\HelloWorld\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\anish.LAPTOP-T4EV1AJ6\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "E:\\Iacsd\\MsnetWs\\Complex\\Complex.csproj": {
+              "projectPath": "E:\\Iacsd\\MsnetWs\\Complex\\Complex.csproj"
+            },
+            "E:\\Iacsd\\MsnetWs\\Drawing\\Drawing.csproj": {
+              "projectPath": "E:\\Iacsd\\MsnetWs\\Drawing\\Drawing.csproj"
+            },
+            "E:\\Iacsd\\MsnetWs\\ImplementationLib\\ImplementationLib.csproj": {
+              "projectPath": "E:\\Iacsd\\MsnetWs\\ImplementationLib\\ImplementationLib.csproj"
+            },
+            "E:\\Iacsd\\MsnetWs\\SpecificationLib\\SpecificationLib.csproj": {
+              "projectPath": "E:\\Iacsd\\MsnetWs\\SpecificationLib\\SpecificationLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

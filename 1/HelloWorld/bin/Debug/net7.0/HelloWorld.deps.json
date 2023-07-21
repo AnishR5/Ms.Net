@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HelloWorld/1.0.0": {
+        "dependencies": {
+          "Complex": "1.0.0",
+          "Drawing": "1.0.0",
+          "ImplementationLib": "1.0.0",
+          "SpecificationLib": "1.0.0"
+        },
+        "runtime": {
+          "HelloWorld.dll": {}
+        }
+      },
+      "Complex/1.0.0": {
+        "runtime": {
+          "Complex.dll": {}
+        }
+      },
+      "Drawing/1.0.0": {
+        "runtime": {
+          "Drawing.dll": {}
+        }
+      },
+      "ImplementationLib/1.0.0": {
+        "dependencies": {
+          "SpecificationLib": "1.0.0"
+        },
+        "runtime": {
+          "ImplementationLib.dll": {}
+        }
+      },
+      "SpecificationLib/1.0.0": {
+        "runtime": {
+          "SpecificationLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorld/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Complex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Drawing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImplementationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SpecificationLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
