@@ -1,0 +1,29 @@
+@using BOL
+@using Newtonsoft.Json
+
+@{
+   // Employee emp=TempData["Empdtls"] as Employee;
+     Employee emp=JsonConvert.DeserializeObject<Employee>(TempData["Empdtls"].ToString());
+    <table>
+    <tr>
+        <td>Empid:</td>
+        <td>@emp.empId</td>
+    </tr>
+    <tr>
+        <td>Name:</td>
+        <td>@emp.name</td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td>@emp.email</td>
+    </tr>
+    <tr>
+        <td>salary:</td>
+        <td>@emp.salary</td>
+    </tr>
+</table>    
+   
+}
+ 
+<a href="/Employee/allEmp"></a>
+
