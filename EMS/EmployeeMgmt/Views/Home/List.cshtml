@@ -1,0 +1,33 @@
+ @* @{
+    using System.IO;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+try{
+     string fileName=@"E:\Iacsd\MsnetWs\EMS\Employees.json";
+    string jsonString  = System.IO.File.ReadAllText(fileName);
+    List<Employee> emps=JsonSerializer.Deserialize<List<Employee>>(jsonString);
+
+
+}catch(Exception e)
+{
+    Console.Write(e.Message);
+}
+}
+
+<ol>
+    @{
+        foreach(Employee item in emps)
+        {
+            <li>item.id</li>
+            <li>item.name</li>
+            <li>item.email</li>
+            <li>item.salary</li>
+        }
+    }
+</ol>  *@
+
+@* @{
+    List<Employee> Employees=
+} *@
+
