@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "e3wWS+4qiOXcU9Bv5tXtQoZb4loxs1DP1PWMKLxZzEBQs16XubtX+dKxk2QvWdqMvKVvmycDga2urD++g64p0g==",
+  "success": false,
+  "projectFilePath": "E:\\local_repo\\Ms.Net\\testing\\PrimeService.Tests\\PrimeService.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Microsoft.NET.Test.Sdk"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "MSTest.TestAdapter"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "MSTest.TestFramework"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "coverlet.collector"
+    }
+  ]
+}

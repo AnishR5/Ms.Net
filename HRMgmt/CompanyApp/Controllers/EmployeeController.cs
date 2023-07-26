@@ -40,7 +40,7 @@ public class EmployeeController : Controller
     public IActionResult GetEmp(int eid)
     {
         Employee e=DbManager.GetEmployee(eid);
-        Console.WriteLine(e.empId+" "+e.name);
+        // Console.WriteLine(e.empId+" "+e.name);
         TempData["Empdtls"]=JsonConvert.SerializeObject(e);
         return RedirectToAction("EmpDetails");
     }
@@ -48,8 +48,59 @@ public class EmployeeController : Controller
     public IActionResult EmpDetails()
     {
         Employee e=JsonConvert.DeserializeObject<Employee>(TempData["Empdtls"].ToString());
-Console.WriteLine(e.empId+" "+e.name);
+// Console.WriteLine(e.empId+" "+e.name);
      
         return View();
     }
+
+    public IActionResult InsertEmp() {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult InsertEmp(int empid,string name,string email,string password,double salary) {
+        Employee emp=new Employee(empid,name,email,password,salary);
+        bool status=DbManager.Insert(emp);
+
+        if(status){
+            return RedirectToAction("AllEmp");
+        }
+        else
+        {
+            return View();
+        }
+    }
+
+    // public IActionResult DeleteEmp() {
+
+    //     return View();
+    // }
+
+  //  [HttpPost]
+    public IActionResult DeleteEmp(int empid) 
+    {
+
+        bool status=DbManager.Delete(empid);
+        if(status){
+            return RedirectToAction("AllEmp");
+        }
+        else
+            return View();
+    }
+
+    public IActionResult UpdateEmp(int empid)
+    {
+        Employee e=DbManager.GetEmployee(empid);
+        ViewBag["emp"]=e;
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult UpdateEmp(int empid,string name,string email,string password,double salary)
+    {
+        
+        return null;
+    }
+
+
 }

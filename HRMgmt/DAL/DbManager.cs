@@ -42,6 +42,7 @@ public class DbManager
 
     public static Employee GetEmployee(int id)
     {
+        
         Employee emp=null;
         MySqlConnection connection=new MySqlConnection();  // connection object
         connection.ConnectionString =conString;            // connection gettion connected to our local database
@@ -73,6 +74,52 @@ public class DbManager
 
         return emp;
     }
+
+
+    public static bool Insert(Employee emp)
+    {
+        bool status=false;
+        MySqlConnection connection = new MySqlConnection();
+        connection.ConnectionString=conString;
+        try{
+            string query="insert into emp values ("+emp.empId+",'"+emp.name+"','"+emp.email+"','"+emp.password+"',"+emp.salary+")";
+            connection.Open();
+            MySqlCommand cmd= new MySqlCommand(query,connection);
+            cmd.ExecuteNonQuery();
+            status=true;    
+
+        }catch(Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally{
+            connection.Close();
+        }
+
+        return status;
+    }
+
+    public static bool Delete(int empid)
+    {
+        bool status=false;
+        MySqlConnection connection=new MySqlConnection();
+        connection.ConnectionString =conString;
+        try{
+                string query="delete from emp where empId="+empid;
+                connection.Open();
+                MySqlCommand cmd=new MySqlCommand(query,connection);
+                int rowsaffected=cmd.ExecuteNonQuery();
+                status=rowsaffected>0;
+        }catch(Exception e)
+        {           
+            Console.WriteLine(e.Message);
+        }
+        finally{
+            connection.Close();
+        }
+        return status;
+    }
+
 
 
     
