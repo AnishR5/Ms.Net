@@ -1,0 +1,45 @@
+DB 
+create database
+create table  --> with primary key
+
+1) web api
+2) appsettings.json 
+		"ConnectionStrings": {
+  "NorthwindDB": "Server=localhost;Database=Northwind;Uid=root;Pwd=admin@123"
+}
+3)
+Project-> open terminal
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+dotnet tool install --global dotnet-ef
+dotnet tool update --global dotnet-ef
+dotnet ef dbcontext scaffold Name=NorthwindDB Pomelo.EntityFrameworkCore.MySql --output-dir Models --context-dir Data --namespace Northwind.Models --context-namespace Northwind.Data --context NorthwindContext -f --no-onconfiguring 
+
+4)
+program.cs
+below swagger write
+builder.Services.AddDbContext<NorthwindContext>(
+    options =>
+    {
+        options.UseMySql(builder.Configuration.GetConnectionString("NorthwindDB"),
+             Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.32"));
+   }
+   );
+   
+5)
+controller--> add -> controller --> api --> Common Api --> APi controller with actions
+Model class - > Emps Northwind.Models
+
+
+ALTER TABLE emps
+ADD PRIMARY KEY (empid);	
+
+----------------------------------------------------
+1)MVC
+2)Nuget mgmt --> design
+3) Models --> add class 
+4) controller --> add controller MVC with views
+5)tools --> nuget package mgr --> console 
+	add-migration initdata
+	update-database 
+6)build
